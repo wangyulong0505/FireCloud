@@ -1,0 +1,5 @@
+D:\MicroServices\FireCloud\microservices\FireCloud.OrderService.Host\obj\Debug\netcoreapp3.1\FireCloud.OrderService.Web.csprojAssemblyReference.cache
+D:\MicroServices\FireCloud\microservices\FireCloud.OrderService.Host\obj\Debug\netcoreapp3.1\FireCloud.OrderService.Web.AssemblyInfoInputs.cache
+D:\MicroServices\FireCloud\microservices\FireCloud.OrderService.Host\obj\Debug\netcoreapp3.1\FireCloud.OrderService.Web.AssemblyInfo.cs
+D:\MicroServices\FireCloud\microservices\FireCloud.OrderService.Host\obj\Debug\netcoreapp3.1\FireCloud.OrderService.Web.csproj.CoreCompileInputs.cache
+D:\MicroServices\FireCloud\microservices\FireCloud.OrderService.Host\obj\Debug\netcoreapp3.1\FireCloud.OrderService.Web.MvcApplicationPartsAssemblyInfo.cache
