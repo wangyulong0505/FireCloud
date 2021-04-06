@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Delpoyment
+metadata:
+  name: product-service
+spec:
+  selector:
+    matchLabels:
+      app: product-service
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: product-service
+    spec:
+      containers:
+        - name: product-service
+          image: "FireCloud/modules-product-service"
+          env:
+          - name: ASPNETCORE_ENVIRONMENT
+            value: Deployment
+          - name: ASPNETCORE_URLS
+            value: http://0.0.0.0:80
+          - name: ConnectionStrings_Default
+            value: 
+          - name: ConnectionStrings_ProductManagement
+            value: 
+          - name: RabbitMQ_Connections_Default_HostName
+            value: rabbitmq
+          - name: Redis_Configuration
+            value: redis
+          ports:
+            - name: http
+              containerPort: 80
