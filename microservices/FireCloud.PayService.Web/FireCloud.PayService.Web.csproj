@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+<<<<<<< HEAD
+  <ItemGroup>
+    <ProjectReference Include="..\..\shared\Shared.Infrastructure\Shared.Infrastructure.csproj" />
+  </ItemGroup>
+
+=======
+>>>>>>> c7ef014e71224f4e3f1913488e41e3b7fd27e353
+
+</Project>
