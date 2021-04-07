@@ -43,13 +43,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireCloud.Order.Api", "modu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireCloud.Order.UnitTest", "modules\order\FireCloud.Order.UnitTest\FireCloud.Order.UnitTest.csproj", "{9D01B929-ECF1-4075-8BBC-1D7C31A07D89}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireCloud.OrderService.Web", "microservices\FireCloud.OrderService.Host\FireCloud.OrderService.Web.csproj", "{817F2D56-2D30-48C9-8CBD-C3E4D94CF9F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireCloud.OrderService.Web", "microservices\FireCloud.OrderService.Web\FireCloud.OrderService.Web.csproj", "{817F2D56-2D30-48C9-8CBD-C3E4D94CF9F0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireCloud.ProductService.Web", "microservices\FireCloud.ProductService.Host\FireCloud.ProductService.Web.csproj", "{6383E917-A829-4737-A824-28162F03B581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireCloud.ProductService.Web", "microservices\FireCloud.ProductService.Web\FireCloud.ProductService.Web.csproj", "{6383E917-A829-4737-A824-28162F03B581}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireCloud.UserService.Web", "microservices\FireCloud.UserService.Host\FireCloud.UserService.Web.csproj", "{511E413C-EA3F-4D62-B68E-D1AFB738DC42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireCloud.UserService.Web", "microservices\FireCloud.UserService.Web\FireCloud.UserService.Web.csproj", "{511E413C-EA3F-4D62-B68E-D1AFB738DC42}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireCloud.PayService.Web", "microservices\FireCloud.PayService.Host\FireCloud.PayService.Web.csproj", "{D7A66F03-3A16-4B62-9635-CEF0E07CE0BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireCloud.PayService.Web", "microservices\FireCloud.PayService.Web\FireCloud.PayService.Web.csproj", "{D7A66F03-3A16-4B62-9635-CEF0E07CE0BA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{52FF4C4A-9AF9-4A8A-842A-EC6960BA019E}"
 	ProjectSection(SolutionItems) = preProject

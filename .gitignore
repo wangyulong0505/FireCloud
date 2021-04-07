@@ -1,0 +1,11 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/microservices/FireCloud.OrderService.Web/obj/Debug/netcoreapp3.1
+/microservices/FireCloud.OrderService.Web/obj
+/microservices/FireCloud.PayService.Web/obj
+/microservices/FireCloud.ProductService.Web/obj/Debug/netcoreapp3.1
+/microservices/FireCloud.ProductService.Web/obj
+/microservices/FireCloud.UserService.Web/obj
+/shared/Shared.Domain/obj/Debug/netcoreapp3.1
