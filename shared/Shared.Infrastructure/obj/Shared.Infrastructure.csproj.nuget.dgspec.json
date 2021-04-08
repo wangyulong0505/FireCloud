@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[1.10.2, )"
             },
+            "CSRedisCore": {
+              "target": "Package",
+              "version": "[3.6.6, )"
+            },
             "Confluent.Kafka": {
               "target": "Package",
               "version": "[1.6.3, )"
@@ -94,6 +98,10 @@
             "Serilog.Sinks.File": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             },
             "dotnet-etcd": {
               "target": "Package",
