@@ -1,9 +1,6 @@
 ﻿using Nest;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Shared.Infrastructure.ElasticSearch
+namespace Shared.Infrastructure
 {
     [ElasticsearchType(IdProperty = "Id")]
     public class Address

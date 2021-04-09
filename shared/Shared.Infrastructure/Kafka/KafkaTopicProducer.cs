@@ -1,8 +1,7 @@
 ﻿using Confluent.Kafka;
 using System;
-using System.Threading.Tasks;
 
-namespace Shared.Infrastructure.Kafka
+namespace Shared.Infrastructure
 {
     internal class KafkaTopicProducer<TKey, TValue> : IKafkaProducer<TKey, TValue>
     {

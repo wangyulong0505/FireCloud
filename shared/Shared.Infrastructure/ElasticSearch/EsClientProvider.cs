@@ -2,11 +2,9 @@
 using Microsoft.Extensions.Options;
 using Nest;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
-namespace Shared.Infrastructure.ElasticSearch
+namespace Shared.Infrastructure
 {
     public class EsClientProvider : IEsClientProvider
     {

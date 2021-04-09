@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using RabbitMQ.Client;
+﻿using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using System;
+using System.Text;
 
-namespace Shared.Infrastructure.Rabbitmq
+namespace Shared.Infrastructure
 {
     public class RabbitMQHandler
     {

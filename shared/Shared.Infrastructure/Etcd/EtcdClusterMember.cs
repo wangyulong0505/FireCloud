@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Google.Protobuf.Collections;
+﻿using Google.Protobuf.Collections;
 
-namespace Shared.Infrastructure.Etcd
+namespace Shared.Infrastructure
 {
     public class EtcdClusterMember
     {

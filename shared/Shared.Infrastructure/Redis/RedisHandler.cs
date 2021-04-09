@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using StackExchange.Redis;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
-using StackExchange.Redis;
 
-namespace Shared.Infrastructure.Redis
+namespace Shared.Infrastructure
 {
     public class RedisHandler : IRedisHandler
     {

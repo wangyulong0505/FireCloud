@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Shared.Infrastructure.MongoDb
+namespace Shared.Infrastructure
 {
     public class MongodbHandler
     {

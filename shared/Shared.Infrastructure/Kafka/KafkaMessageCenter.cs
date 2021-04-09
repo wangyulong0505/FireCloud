@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Shared.Infrastructure.Kafka
+﻿namespace Shared.Infrastructure
 {
     public static class KafkaMessageCenter<TKey, TValue>
     {

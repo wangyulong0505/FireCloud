@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-using dotnet_etcd;
+﻿using dotnet_etcd;
 using Etcdserverpb;
 using Google.Protobuf;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-namespace Shared.Infrastructure.Etcd
+namespace Shared.Infrastructure
 {
     public class EtcdHandler
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace FireCloud.PayService.Web.Controllers
+namespace FireCloud.UserService.Web.Controllers
 {
     public class HomeController : Controller
     {

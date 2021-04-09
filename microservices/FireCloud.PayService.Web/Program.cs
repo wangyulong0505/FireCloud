@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using Shared.Infrastructure.Serilog;
+using Shared.Infrastructure;
 using System;
 
 namespace FireCloud.PayService.Web

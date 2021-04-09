@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Shared.Infrastructure.ElasticSearch;
+using Shared.Infrastructure;
 using System.Collections.Generic;
 
 namespace FireCloud.ProductService.Web.Controllers

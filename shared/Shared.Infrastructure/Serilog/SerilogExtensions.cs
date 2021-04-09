@@ -1,7 +1,7 @@
 ﻿using Serilog;
 using Serilog.Core;
 
-namespace Shared.Infrastructure.Serilog
+namespace Shared.Infrastructure
 {
     public static class SerilogExtensions
     {

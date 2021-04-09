@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.Extensions.Configuration;
+using System;
 using System.Threading.Tasks;
-using CSRedis;
-using Microsoft.Extensions.Configuration;
 
-namespace Shared.Infrastructure.Redis
+namespace Shared.Infrastructure
 {
     public class CSRedisHandler : IRedisHandler
     {

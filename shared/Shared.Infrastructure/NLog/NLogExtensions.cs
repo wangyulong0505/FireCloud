@@ -4,7 +4,7 @@ using NLog;
 using NLog.Web;
 
 
-namespace Shared.Infrastructure.NLog
+namespace Shared.Infrastructure
 {
     public static class NLogExtensions
     {

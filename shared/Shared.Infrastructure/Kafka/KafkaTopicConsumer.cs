@@ -1,7 +1,7 @@
 ﻿using Confluent.Kafka;
 using System;
 
-namespace Shared.Infrastructure.Kafka
+namespace Shared.Infrastructure
 {
     public class KafkaTopicConsumer<TKey, TValue>
     {

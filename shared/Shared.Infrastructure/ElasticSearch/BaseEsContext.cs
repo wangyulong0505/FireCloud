@@ -1,9 +1,7 @@
 ﻿using Nest;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace Shared.Infrastructure.ElasticSearch
+namespace Shared.Infrastructure
 {
     public interface IBaseEsContext { }
 
