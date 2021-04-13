@@ -220,5 +220,18 @@ namespace Shared.Infrastructure
         }
 
         #endregion
+
+        /*
+        public void PublishMessage()
+        {
+            ISubscriber sub = redis.GetSubscriber();
+            sub.Subscribe("Message", (channel, message) =>
+            {
+                Console.WriteLine((string)message);
+            });
+
+            sub.Publish("Message", "Hello Rabbitmq");
+        }
+        */
     }
 }

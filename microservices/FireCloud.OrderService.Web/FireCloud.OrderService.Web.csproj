@@ -8,5 +8,9 @@
     <ProjectReference Include="..\..\shared\Shared.Infrastructure\Shared.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="GRpc\" />
+  </ItemGroup>
+
 
 </Project>

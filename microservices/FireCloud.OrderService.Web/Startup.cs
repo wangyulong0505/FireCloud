@@ -1,8 +1,10 @@
+using IdentityServer4;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 
 namespace FireCloud.OrderService.Web
 {
@@ -19,6 +21,7 @@ namespace FireCloud.OrderService.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddIdentityServer();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,6 +37,7 @@ namespace FireCloud.OrderService.Web
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseIdentityServer();
 
             app.UseEndpoints(endpoints =>
             {

@@ -9,3 +9,9 @@
 /microservices/FireCloud.ProductService.Web/obj
 /microservices/FireCloud.UserService.Web/obj
 /shared/Shared.Domain/obj/Debug/netcoreapp3.1
+/shared/Shared.Infrastructure/obj/project.assets.json
+/shared/Shared.Infrastructure/obj/project.nuget.cache
+/shared/Shared.Infrastructure/obj/Shared.Infrastructure.csproj.nuget.dgspec.json
+/shared/Shared.Infrastructure/obj/Shared.Infrastructure.csproj.nuget.g.props
+/shared/Shared.Infrastructure/obj/Shared.Infrastructure.csproj.nuget.g.targets
+/shared/Shared.Infrastructure/obj/Debug/netcoreapp3.1
